@@ -7,7 +7,7 @@ local panel = ui.Window("Adminpanel | "..vers, 656, 328) -- adminpanel src:
 
 
 local can_exit = false
-panel:show()
+panel:show() 
 panel:center()
 repeat
 	ui.update()

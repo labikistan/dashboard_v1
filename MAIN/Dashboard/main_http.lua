@@ -45,7 +45,7 @@ local typed = sys.Buffer(console.readln("\n» ")):encode("utf8")
 local client = net.Http(url)
 client:get("/") 
 
-
+ 
 
 if typed == "info" then
     console.write("Made by Labikistan in Lua using LuaRT framework.")

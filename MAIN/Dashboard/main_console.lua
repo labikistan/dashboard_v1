@@ -67,7 +67,7 @@ repeat
         console.write("~-~ help ~-~")
         console.write("\n")
         console.write("\nqr | QR-Code Generator.")
-        console.write("\ndashboard | Öffnet das Dashboard.")
+        console.write( "\ndashboard | Öffnet das Dashboard.")
         console.write("\nalex | Wer ist Alex?")
         console.write("\nexit | Tip: Alt F4.")
         console.write("\nclear | Leere dein Commandfeld.")

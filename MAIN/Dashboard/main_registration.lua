@@ -14,7 +14,7 @@ registertext.font = "Javanese Text"
 registertext.fontsize = 24
 registertext.x = 115
 
-
+ 
 local already = ui.Label(dash, "Berreits Registriert? Clicke Hier!", 115, 335)
 function already:onClick(x, y)
 	ui.remove(dash)

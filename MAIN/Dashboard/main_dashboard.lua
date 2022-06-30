@@ -59,7 +59,7 @@ local submit = ui.Button(login, "submit", 165, 220)
 function submit:onClick()
     if username.text == "labikistan" and password.text == "geheim" then
         dashtext.enabled = false
-		local dashtext = ui.Label(dash, "🏠 | Dashboard - ADMIN", 330, 0)
+		local dashtext = ui.Label(dash,  "🏠 | Dashboard - ADMIN", 330, 0)
 		dashtext.fontsize = 22
 	end
 end

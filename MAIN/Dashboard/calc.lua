@@ -1,6 +1,6 @@
 local ui = require "ui"
 local vers = "V0.1"
-local net = require "net"
+local net = require "net" 
 local typednum = 0
 local showing = true
 --nums

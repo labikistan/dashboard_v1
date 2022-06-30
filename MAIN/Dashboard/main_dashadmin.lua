@@ -9,7 +9,7 @@ registertext.font = "Javanese Text"
 registertext.fontsize = 24
 registertext.x = 150
 
-
+ 
 local username = ui.Entry(login, "", 130, 110)
 username.width = 130
 

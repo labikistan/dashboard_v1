@@ -15,7 +15,7 @@ console.writecolor("red", "A")
 console.writecolor("blue", "R")
 console.writecolor("yellow", "D")
 console.writecolor("white", " | .NET Constructor\n")
-
+ 
 repeat
 local typed = sys.Buffer(console.readln("» ")):encode("utf8")
 if typed == "info" then

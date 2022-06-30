@@ -50,7 +50,7 @@ local submit = ui.Button(login, "submit", 165, 220)
 --         local dashboard = require("main_dashboard")
 --     else
 --         ui.error("Benutzername oder Passwort stimmen nicht überein.")
---     end
+--     end 
 -- end
 function submit:onClick()
     if username.text == "labikistan" and password.text == "geheim" then

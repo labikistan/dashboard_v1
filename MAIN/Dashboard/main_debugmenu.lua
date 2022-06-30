@@ -12,7 +12,7 @@ end
 tab.selected = tab.items[1]
 win:show()
 
--- update user interface
+-- update user interface 
 repeat
     ui.update()
 until not win.visible 
