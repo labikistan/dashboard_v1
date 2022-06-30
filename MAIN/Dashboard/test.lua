@@ -15,4 +15,4 @@ win:show()
 -- update the user interface until the user closes the Window
 repeat
 	ui.update()
-until not win.visible
+until not win.visible 
