@@ -7,6 +7,7 @@ local dash = ui.Window("Dashboard | "..vers, 1350, 720)
 local dashtext = ui.Label(dash, "🏠 | Dashboard", 330, 0)
 dashtext.fontsize = 22
 
+-- ADMIN FUNCTION | Start
 local login = ui.Button(dash, "Login", 1300, 0)
 function login:onClick()
 local login = ui.Window("Login | "..vers, "fixed", 391, 350)
@@ -56,14 +57,14 @@ local submit = ui.Button(login, "submit", 165, 220)
 --         ui.error("Benutzername oder Passwort stimmen nicht überein.")
 --     end
 -- end
-function submit:onClick()
+function submit:onClick() -- I was bored...
     if username.text == "labikistan" and password.text == "geheim" then
         dashtext.enabled = false
 		local dashtext = ui.Label(dash,  "🏠 | Dashboard - ADMIN", 330, 0)
 		dashtext.fontsize = 22
 	end
 end
--- Login Check function
+-- ADMIN FUNCTION | End
 
 login:show()
 login:center()

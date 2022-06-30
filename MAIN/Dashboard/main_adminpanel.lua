@@ -4,7 +4,7 @@ local net = require "net"
 
 local panel = ui.Window("Adminpanel | "..vers, 656, 328) -- adminpanel src:
 
-
+-- pretty empty :(
 
 local can_exit = false
 panel:show() 
