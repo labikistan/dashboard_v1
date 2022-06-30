@@ -17,4 +17,5 @@ The Dashboard is not quite a Dashboard, but I dont know what else I should call 
 Sorry if some Text in the Dashboard is on German. I will probably make 2 versions but not yet.
 
 I hope you can do something with that. You can also give some tips to improve it on my Discord profile: labikistan#7288
+
 Have a great day.
