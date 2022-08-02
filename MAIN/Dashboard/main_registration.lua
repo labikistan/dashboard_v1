@@ -3,7 +3,7 @@ vers = "V0.1"
 local net = require "net"
 local dash = ui.Window("Register | "..vers, "fixed", 391, 350)
 local file = sys.File("userdata.txt")
-
+local email = sys.File("email.txt")
 
 
 
@@ -54,8 +54,11 @@ function submit:onClick()
 		return
 	end
 	file:open("write")
-	file:write(username.text.."@"..password.text..":"..mail.text)
+	email:open("write")
+	file:write(username.text.."@"..password.text)
+	email:write(mail.text..":"..username.text)
 	file:close()
+	email:close()
 	file:open("read")
 	if file:read() == "" then
 		ui.error("Fehler beim Datenspeichern")
